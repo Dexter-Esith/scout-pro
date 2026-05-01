@@ -1,1 +1,1 @@
-web: gunicorn scout_pro.wsgi
+web: gunicorn scout_platform.wsgi
