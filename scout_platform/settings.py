@@ -3,7 +3,7 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-შეცვალე-ეს-production-ში'
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 DEBUG = True
 
